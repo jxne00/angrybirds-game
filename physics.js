@@ -14,7 +14,7 @@ function drawGround() {
 }
 
 function setupPropeller() {
-  // (STEP 1) setup static body of type rectangle
+  // setup static body of type rectangle
   options = { isStatic: true, angle: angle };
   propeller = Bodies.rectangle(150, 480, 200, 15, options);
   World.add(engine.world, [propeller]);
